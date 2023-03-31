@@ -1,0 +1,17 @@
+haohoang@Haos-MacBook-Pro ~ % slog worker | grep 28e8765654b8
++ worker-6b8cb648b8-bgtb6 › worker
++ worker-6b8cb648b8-r5h9x › worker
+worker-6b8cb648b8-bgtb6 worker [2023-03-30T14:47:33.304Z]: ===> Consuming amqp message for idScan=[6e1b2e46-271f-4bea-b45e-28e8765654b8]
+worker-6b8cb648b8-bgtb6 worker [2023-03-30T14:47:34.234Z]: [6e1b2e46-271f-4bea-b45e-28e8765654b8] id=1152 GITHUB/Ethan-test-staging/JS4 scan as ScanFull
+worker-6b8cb648b8-bgtb6 worker [2023-03-30T14:47:34.530Z]: [6e1b2e46-271f-4bea-b45e-28e8765654b8] prepared data
+worker-6b8cb648b8-bgtb6 worker [2023-03-30T14:47:34.642Z]: [6e1b2e46-271f-4bea-b45e-28e8765654b8] detected engine to run
+worker-6b8cb648b8-bgtb6 worker [2023-03-30T14:47:34.642Z]: [6e1b2e46-271f-4bea-b45e-28e8765654b8] Scan message ack in 1,338896562s
+^C
+haohoang@Haos-MacBook-Pro ~ % slog worker | grep 902f30d74c72
++ worker-6b8cb648b8-r5h9x › worker
++ worker-6b8cb648b8-bgtb6 › worker
+worker-6b8cb648b8-r5h9x worker [2023-03-30T15:33:43.956Z]: ===> Consuming amqp message for idScan=[939a2feb-cc8b-4541-8033-902f30d74c72]
+worker-6b8cb648b8-r5h9x worker [2023-03-30T15:33:49.868Z]: [939a2feb-cc8b-4541-8033-902f30d74c72] id=1079 GITHUB/Ethan-test-staging/EthanTest3 scan as ScanFull
+worker-6b8cb648b8-r5h9x worker [2023-03-30T15:33:49.931Z]: [939a2feb-cc8b-4541-8033-902f30d74c72] prepared data
+worker-6b8cb648b8-r5h9x worker [2023-03-30T15:33:49.952Z]: [939a2feb-cc8b-4541-8033-902f30d74c72] detected engine to run
+worker-6b8cb648b8-r5h9x worker [2023-03-30T15:33:49.952Z]: [939a2feb-cc8b-4541-8033-902f30d74c72] Scan message ack in 5,996785178s
